@@ -4,7 +4,7 @@ import streamlit as st
 
 #import & clean data
 
-df = pd.read_parquet("\03-MASTERDATASET-job_part00000.parquet.snappy", engine='pyarrow')
+df = pd.read_parquet("03-MASTERDATASET-job_part00000.parquet.snappy", engine='pyarrow')
 
 pd.set_option('display.max_columns',None)
 df.head()
@@ -20,9 +20,6 @@ df.adedpe202006_mean_class_estim_ges.unique()
 classedpe = list(df.adedpe202006_mean_class_estim_ges.unique())
 
 df = df.dropna(subset=['SURF_HAB_TOTAL'])
-df["SURF_HAB_TOTAL"].describe()
-df["SURF_HAB_TOTAL"].info()
-df["SURF_HAB_TOTAL"].head(50)
 
 #Streamlit UI
 
