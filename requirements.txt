@@ -1,4 +1,3 @@
-absl-py                      1.2.0
 altair                       4.2.0
 asttokens                    2.0.8
 astunparse                   1.6.3
