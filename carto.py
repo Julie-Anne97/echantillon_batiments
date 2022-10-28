@@ -4,7 +4,7 @@ import streamlit as st
 
 #import & clean data
 
-df = pd.read_parquet("C:\\Users\\jarosquin\\Documents\\opendatacarto\\03-MASTERDATASET-job_part00000.parquet.snappy", engine='pyarrow')
+df = pd.read_parquet("\03-MASTERDATASET-job_part00000.parquet.snappy", engine='pyarrow')
 
 pd.set_option('display.max_columns',None)
 df.head()
@@ -45,7 +45,3 @@ st.map(df3, zoom=None, use_container_width=True)
 
 st.write("Liste complète avec les filtres sélectionnées")
 st.dataframe(df3)
-
-df3["SURF_HAB_TOTAL"].describe()
-
-df["SURF_BUR_TOTAL"].describe()
