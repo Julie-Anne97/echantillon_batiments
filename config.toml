@@ -3,7 +3,7 @@ primaryColor="#e31b18ff"
 backgroundColor="#FFFFFF"
 secondaryBackgroundColor="#f0ece4ff"
 textColor="#262730"
-font="poppins"
+font="sans serif"
 
 [mapbox]
 
