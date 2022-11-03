@@ -1,2 +1,3 @@
-[mapbox]
-token = "pk.eyJ1IjoianVsaWVhbm5lOTciLCJhIjoiY2xhMHY2OGJmMDFlaTNucGhpeDZpZWxpZyJ9.45VwO9VHTuC3FOBYlC5vcw"
+[theme]
+# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
+font = "poppins"
