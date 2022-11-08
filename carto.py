@@ -7,7 +7,7 @@ from streamlit_folium import st_folium
 
 #import & clean data
 
-df = pd.read_parquet("C:\\Users\\jarosquin\\Documents\\opendatacarto\\.streamlit\\03-MASTERDATASET-job_part00000.parquet.snappy", engine='pyarrow')
+df = pd.read_parquet("reducedfile.parquet.snappy", engine='pyarrow')
 
 pd.set_option('display.max_columns',None)
 df.head()
