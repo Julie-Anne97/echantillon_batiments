@@ -80,7 +80,7 @@ df3 =  df2[df2["SURF_HAB_TOTAL"].isin(surfaces)]
 df3['lat'] = df3['lat'].astype(float)
 df3['lon'] = df3['lon'].astype(float)
 
-df4 = df3[['lat', 'lon','libelleVoieEtablissement']].copy()
+# df4 = df3[['lat', 'lon','libelleVoieEtablissement']].copy()
 
 latitude = list(df3['lat'])
 longitude = list(df3['lon'])
